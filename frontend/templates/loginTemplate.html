@@ -1,0 +1,38 @@
+<section class="login-shell">
+  <div class="login-card">
+    <div class="brand">
+      <h1>Team Access</h1>
+      <p>Secure sign-in built with Backbone.js</p>
+    </div>
+    <form id="login-form" novalidate>
+      <div class="form-field">
+        <span>Email</span>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          autocomplete="username"
+          placeholder="you@example.com"
+          required
+        />
+        <span class="field-error" data-error-for="email"></span>
+      </div>
+      <div class="form-field">
+        <span>Password</span>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          autocomplete="current-password"
+          placeholder="At least 8 characters"
+          required
+        />
+        <span class="field-error" data-error-for="password"></span>
+      </div>
+      <div class="submit-wrapper">
+        <button type="submit">Sign in</button>
+      </div>
+    </form>
+    <div class="form-status" role="status" aria-live="polite"></div>
+  </div>
+</section>
